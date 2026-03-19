@@ -1,5 +1,7 @@
 # Agente IA con RAG – TechNova Solutions S.A.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoeliaOrsini/rag-legal-agent-technova/blob/main/Inmersion_agentes_IA_clase_2y3_Asistente_Legal.ipynb)
+
 Este proyecto fue desarrollado en el marco de la Inmersión IA Dev de Alura Latam, a lo largo de tres clases donde se construyó, paso a paso, un agente capaz de responder consultas combinando información interna y externa.
 
 El resultado es un asistente legal que trabaja sobre una empresa ficticia, TechNova Solutions S.A., utilizando datos estructurados de empleados, desempeño y vacaciones.
