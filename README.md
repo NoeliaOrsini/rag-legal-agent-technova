@@ -19,6 +19,51 @@ Construir un agente que no solo responda preguntas, sino que pueda:
 
 ---
 
+## Entorno de ejecución
+
+Este proyecto fue desarrollado en Google Colab.
+
+### 1. Cómo comenzar
+
+Podés usar el proyecto de dos formas:
+
+- Abrir el notebook directamente desde el botón **Open in Colab**  
+- O clonar el repositorio:
+git clone https://github.com/NoeliaOrsini/rag-legal-agent-technova.git
+
+Si abrís en Colab, se recomienda hacer una copia:
+Archivo → Guardar una copia en Drive
+
+### 2. API Keys necesarias
+
+Para ejecutar el notebook se deben configurar dos claves:
+
+**GEMINI_API_KEY (Google Generative AI)**  
+- Crear desde Google AI Studio  
+- En Colab → "Secrets" (ícono 🔑) → agregar:
+  copiá y pegá la api key y nombrala: GEMINI_API_KEY
+
+
+**SERPAPI_API_KEY (búsquedas web)**  
+- Crear cuenta en https://serpapi.com/  
+- En Colab → "Secrets" → agregar:
+  copiá y pegá la api key y nombrala: SERPAPI_API_KEY
+
+### Ejecución del notebook
+
+Una vez configuradas las API Keys:
+
+- Ejecutar las celdas en orden desde el inicio  
+- Al llegar a la sección de carga de PDFs, subir los archivos correspondientes  
+- Luego continuar con la ejecución del resto de las celdas  
+
+### Consideraciones
+
+- El sistema puede arrojar errores si se alcanza el límite de uso (quota) de las APIs  
+- En ese caso, será necesario esperar y continuar en otro momento o trabajar con menos datos (subconjuntos)
+
+---
+
 ## Tecnologías utilizadas
 
 - Python  
