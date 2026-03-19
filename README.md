@@ -96,6 +96,7 @@ Trabaja sobre documentos ficticios de TechNova Solutions S.A., diseñados para s
 Los datos utilizados en este proyecto fueron inicialmente estructurados en una base tipo Excel y luego transformados en un documento PDF para su procesamiento dentro del sistema RAG.
 
 Durante ese proceso, se reemplazaron nombres y apellidos por identificadores anónimos (IDs), incorporando desde el diseño criterios de protección de datos personales. Esto permite trabajar con información sensible en un entorno simulado, manteniendo una lógica alineada con buenas prácticas en materia de confidencialidad.
+
 ---
 
 ## Consideraciones técnicas
